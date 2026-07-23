@@ -1,8 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- ====== ОСНОВНЫЕ МЕТА-ТЕГИ ====== -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ГЛАВНЫЙ ЗАГОЛОВОК (то, что видно на вкладке) -->
+    <title>TrioGames — Зомби Космос, Horror at the School и новости от Sentagon Corporation</title>
+    
+    <!-- ОПИСАНИЕ (то, что видно под ссылкой в поиске) -->
+    <meta name="description" content="TrioGames — игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе. Игры выходят в 2027–2029 годах.">
+    
+    <!-- КЛЮЧЕВЫЕ СЛОВА (для поисковиков) -->
+    <meta name="keywords" content="TrioGames, Sentagon Corporation, Зомби Космос, Horror at the School, хоррор, зомби, выживание, инди-игры, игры 2027, игры 2028, школьный хоррор, игры на ПК, Unity игры, российские инди-игры">
+    
+    <!-- АВТОР -->
+    <meta name="author" content="TrioGames / Sentagon Corporation">
+    
+    <!-- ДЛЯ КРАСИВОГО ПРЕВЬЮ В СОЦСЕТЯХ (Open Graph) -->
+    <meta property="og:title" content="TrioGames — Зомби Космос, Horror at the School и новости от Sentagon Corporation">
+    <meta property="og:description" content="TrioGames — игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maratktoa-sketch.github.io/triogames-official/">
+    <meta property="og:image" content="https://maratktoa-sketch.github.io/triogames-official/logo.png">
+    <!-- Временно используем заглушку. Потом замени на свою картинку 1200x630 -->
+    
+    <!-- ДЛЯ TWITTER (если кто-то шарит в твиттере) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TrioGames — Зомби Космос, Horror at the School">
+    <meta name="twitter:description" content="Игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе.">
+    <meta name="twitter:image" content="https://maratktoa-sketch.github.io/triogames-official/logo.png">
+    
+    <!-- ИКОНКА НА ВКЛАДКЕ (фавикон) — пока стандартная, потом заменишь -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
     <title>Sentagon Corporation — TrioGames</title>
     <style>
         * {
