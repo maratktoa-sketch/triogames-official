@@ -120,6 +120,10 @@
             white-space: pre-wrap;
         }
 
+        .game-description.horror-specs {
+            border-left-color: #ff6644;
+        }
+
         .game-meta {
             display: flex;
             flex-wrap: wrap;
@@ -149,6 +153,10 @@
             padding-left: 20px;
             margin-bottom: 25px;
             color: #ffffff;
+        }
+
+        .section h2.horror-title {
+            border-left-color: #ff6644;
         }
 
         .buy-grid {
@@ -285,6 +293,10 @@
             margin-bottom: 12px;
         }
 
+        .specs.horror-specs h3 {
+            color: #ff6644;
+        }
+
         .specs ul {
             list-style: none;
         }
@@ -332,6 +344,12 @@
             background: #2a1a1a;
             color: #ff6666;
             border: 1px solid #ff6666;
+        }
+
+        .badge-horror {
+            background: #2a1a1a;
+            color: #ff6644;
+            border: 1px solid #ff6644;
         }
 
         .secret-text {
@@ -529,7 +547,7 @@
 
    СОБИРАЙ РЕСУРСЫ
 
-   В карманах всего 3 слотов.
+   В карманах всего 3 слота.
    Носи рюкзак — носи больше.
    Ищи ключи, аптечки, записки и оружие,
    чтобы выжить.
@@ -567,7 +585,35 @@
         </div>
 
         <div class="section">
-            <h2>🛒 Доступность</h2>
+            <h2 class="horror-title">⚙️ Системные требования</h2>
+            <div class="specs horror-specs">
+                <div>
+                    <h3>🔻 Минимальные</h3>
+                    <ul>
+                        <li><strong>ОС:</strong> Windows 7/8/10/11 (64-bit)</li>
+                        <li><strong>Процессор:</strong> Intel Core i3 / AMD Ryzen 3</li>
+                        <li><strong>RAM:</strong> 4 GB</li>
+                        <li><strong>Видеокарта:</strong> GT 730 / Radeon R5 (1 GB)</li>
+                        <li><strong>Место:</strong> 2 GB</li>
+                        <li><strong>DirectX:</strong> 11</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🚀 Рекомендуемые</h3>
+                    <ul>
+                        <li><strong>ОС:</strong> Windows 10/11 (64-bit)</li>
+                        <li><strong>Процессор:</strong> Intel Core i5 / AMD Ryzen 5</li>
+                        <li><strong>RAM:</strong> 8 GB</li>
+                        <li><strong>Видеокарта:</strong> GTX 1050 Ti / RX 570 (4 GB)</li>
+                        <li><strong>Место:</strong> 4 GB</li>
+                        <li><strong>DirectX:</strong> 12</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="horror-title">🛒 Доступность</h2>
             <div class="buy-grid">
                 <div class="buy-card">
                     <div class="platform">🎮 Игра</div>
@@ -636,15 +682,11 @@
 
     tabs.forEach(tab => {
         tab.addEventListener('click', function() {
-            // Убрать активный класс у всех вкладок
             tabs.forEach(t => t.classList.remove('active'));
-            // Добавить активный класс текущей вкладке
             this.classList.add('active');
 
-            // Скрыть все контенты
             Object.values(contents).forEach(content => content.classList.add('hidden'));
 
-            // Показать нужный контент
             const game = this.dataset.game;
             if (contents[game]) {
                 contents[game].classList.remove('hidden');
