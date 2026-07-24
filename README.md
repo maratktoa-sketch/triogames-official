@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- ГЛАВНЫЙ ЗАГОЛОВОК (то, что видно на вкладке) -->
-    <title>TrioGames — Зомби Космос, Horror at the School и новости от Sentagon Corporation</title>
+    <title>Solo Rocket Games-SRG. Solo Rocket Games-SRG — Зомби Космос, Horror at the School и новости от Sentagon Corporation</title>
     
     <!-- ОПИСАНИЕ (то, что видно под ссылкой в поиске) -->
-    <meta name="description" content="TrioGames — игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе. Игры выходят в 2027–2029 годах.">
+    <meta name="description" content=" — игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе. Игры выходят в 2027–2029 годах.">
     
     <!-- КЛЮЧЕВЫЕ СЛОВА (для поисковиков) -->
-    <meta name="keywords" content="TrioGames, Sentagon Corporation, Зомби Космос, Horror at the School, хоррор, зомби, выживание, инди-игры, игры 2027, игры 2028, школьный хоррор, игры на ПК, Unity игры, российские инди-игры">
+    <meta name="keywords" content="Solo Rocket Games-SRG, Sentagon Corporation, Зомби Космос, Horror at the School, хоррор, зомби, выживание, инди-игры, игры 2027, игры 2028, школьный хоррор, игры на ПК, Unity игры, беллорусские инди-игры">
     
     <!-- АВТОР -->
-    <meta name="author" content="TrioGames / Sentagon Corporation">
+    <meta name="author" content="Solo Rocket Games-SRG / Sentagon Corporation">
     
     <!-- ДЛЯ КРАСИВОГО ПРЕВЬЮ В СОЦСЕТЯХ (Open Graph) -->
-    <meta property="og:title" content="TrioGames — Зомби Космос, Horror at the School и новости от Sentagon Corporation">
-    <meta property="og:description" content="TrioGames — игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе.">
+    <meta property="og:title" content="Solo Rocket Games-SRG — Зомби Космос, Horror at the School и новости от Sentagon Corporation">
+    <meta property="og:description" content="Solo Rocket Games-SRG — игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://maratktoa-sketch.github.io/triogames-official/">
-    <meta property="og:image" content="https://maratktoa-sketch.github.io/triogames-official/logo.png">
+    <meta property="og:url" content="https://maratktoa-sketch.github.io/Solo-Rocket-Games-SRG/">
+    <meta property="og:image" content="https://maratktoa-sketch.github.io/Solo-Rocket-Games-SRG/logo.png">
     <!-- Временно используем заглушку. Потом замени на свою картинку 1200x630 -->
     
     <!-- ДЛЯ TWITTER (если кто-то шарит в твиттере) -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TrioGames — Зомби Космос, Horror at the School">
+    <meta name="twitter:title" content="Solo-Rocket-Games-SRG — Зомби Космос, Horror at the School">
     <meta name="twitter:description" content="Игры от Sentagon Corporation. Зомби Космос — 100 точек, 10 стран, 10 боссов. Horror at the School — психологический хоррор в школе.">
-    <meta name="twitter:image" content="https://maratktoa-sketch.github.io/triogames-official/logo.png">
+    <meta name="twitter:image" content="https://maratktoa-sketch.github.io/Solo-Rocket-Games-SRG/logo.png">
     
     <!-- ИКОНКА НА ВКЛАДКЕ (фавикон) — пока стандартная, потом заменишь -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
 
-    <title>Sentagon Corporation — TrioGames</title>
+    <title>Sentagon Corporation — Solo-Rocket-Games-SRG</title>
     <style>
         * {
             margin: 0;
@@ -410,7 +410,7 @@
     <!-- ШАПКА С КОРПОРАЦИЕЙ -->
     <div class="header">
         <div class="logo">
-            <h1>🎮 TrioGames</h1>
+            <h1>🎮 Solo-Rocket-Games-SRG</h1>
             <p>под управлением <strong>Sentagon Corporation</strong> <span class="corp-badge">🏛️ EST. 2026</span></p>
         </div>
         <div>
@@ -441,7 +441,7 @@
             <span class="game-meta-item"><strong>🎮 Жанр:</strong> Выживание / Action / Roguelike</span>
             <span class="game-meta-item"><strong>👥 Игроков:</strong> 1</span>
             <span class="game-meta-item"><strong>📅 Выход:</strong> Демо (Itch.io) в 2027, полная версия 2028</span>
-            <span class="game-meta-item"><strong>🎨 Студия:</strong> TrioGames (Sentagon Corp)</span>
+            <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo-Rocket-Games-SRG (Sentagon Corp)</span>
         </div>
 
         <div class="section">
@@ -612,7 +612,7 @@
             <span class="game-meta-item"><strong>🎮 Жанр:</strong> Психологический хоррор / Симулятор выживания</span>
             <span class="game-meta-item"><strong>👥 Игроков:</strong> 1</span>
             <span class="game-meta-item"><strong>📅 Выход:</strong> 2028–2029</span>
-            <span class="game-meta-item"><strong>🎨 Студия:</strong> TrioGames (Sentagon Corp)</span>
+            <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo-Rocket-Games-SRG (Sentagon Corp)</span>
         </div>
 
         <div class="section">
@@ -649,7 +649,7 @@
                 <div class="buy-card">
                     <div class="platform">🎮 Игра</div>
                     <div class="price">Бесплатно</div>
-                    <div style="color: #88aacc; font-size: 0.9rem;">С поддержкой донатом</div>
+                    <div style="color: #88aacc; font-size: 0.9rem;">Есть платный контент.</div>
                     <a href="#" class="btn btn-demo">Скачать</a>
                     <div style="margin-top: 10px; font-size: 0.8rem; color: #667788;">
                         Выход в 2028–2029
@@ -683,7 +683,7 @@
         <div class="game-meta">
             <span class="game-meta-item"><strong>🎮 Жанр:</strong> ???</span>
             <span class="game-meta-item"><strong>📅 Выход:</strong> ???</span>
-            <span class="game-meta-item"><strong>🎨 Студия:</strong> TrioGames (Sentagon Corp)</span>
+            <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo-Rocket-Games-SRG (Sentagon Corp)</span>
         </div>
     </div>
 
@@ -691,7 +691,7 @@
     <div class="footer">
         <p>© 2026 <strong>Sentagon Corporation</strong> — все права защищены.</p>
         <p style="margin-top: 8px;">
-            TrioGames — игровое подразделение Sentagon Corp.
+            Solo-Rocket-Games-SRG — игровое подразделение Sentagon Corp.
         </p>
         <p style="margin-top: 8px;">
             <a href="#">GitHub</a> · 
