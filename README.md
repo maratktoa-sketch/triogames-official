@@ -191,6 +191,18 @@
             color: #88ffbb;
         }
         .btn-android:hover { background: #1a4a3a; }
+        .btn-pulse {
+            background: #2a2a1a;
+            border: 2px solid #ffaa44;
+            color: #ffcc88;
+        }
+        .btn-pulse:hover { background: #3a3a2a; }
+        .btn-horror {
+            background: #2a1a2a;
+            border: 2px solid #cc66ff;
+            color: #dd99ff;
+        }
+        .btn-horror:hover { background: #3a2a3a; }
         .btn-steam {
             background: #1b2838;
             border: 2px solid #66b3ff;
@@ -301,7 +313,7 @@
 <body>
 <div class="container">
 
-    <!-- 📢 БАННЕР-ПРЕДУПРЕЖДЕНИЕ -->
+    <!-- БАННЕР-ПРЕДУПРЕЖДЕНИЕ -->
     <div class="disclaimer-banner">
         ⚡ <strong>ВАЖНО:</strong>  
         <span>Solo Rocket Games (SRG)</span>  
@@ -349,6 +361,9 @@
             <span class="game-meta-item"><strong>👥 Игроков:</strong> 1 (мультиплеер в обновлении 2)</span>
             <span class="game-meta-item"><strong>📅 Выход:</strong> 2027</span>
             <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo Rocket Games (SRG)</span>
+        </div>
+        <div class="download-buttons">
+            <a href="#" class="btn btn-pulse">💾 Скачать Pulse World</a>
         </div>
     </div>
 
@@ -414,6 +429,9 @@
             <span class="game-meta-item"><strong>🎮 Жанр:</strong> Психологический хоррор</span>
             <span class="game-meta-item"><strong>📅 Выход:</strong> 2028</span>
             <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo Rocket Games (SRG)</span>
+        </div>
+        <div class="download-buttons">
+            <a href="#" class="btn btn-horror">⬇️ Скачать Horror at the School</a>
         </div>
     </div>
 
