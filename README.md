@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solo Rocket Games (SRG) — Pulse World, Argus Core и другие проекты</title>
     <meta name="description" content="Solo Rocket Games — независимая студия. Pulse World, Argus Core, Horror at the School и другие проекты.">
+    <meta name="keywords" content="аргус, аргус кор, антивирус аргус кор, horror at the school, Pulse World, игра про ротобов">
     <style>
         * {
             margin: 0;
