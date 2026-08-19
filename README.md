@@ -4,20 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solo Rocket Games (SRG) — Pulse World, Argus Core и другие проекты</title>
-    <meta name="description" content="Solo Rocket Games — независимая студия. Pulse World — 3D-приключение, Argus Core — антивирус, и другие проекты.">
-    <meta name="keywords" content="Solo Rocket Games, SRG, Pulse World, Argus Core, игры, антивирус, инди-разработка">
-    <meta name="author" content="Solo Rocket Games (SRG)">
-    <meta property="og:title" content="Solo Rocket Games (SRG) — Pulse World, Argus Core и другие проекты">
-    <meta property="og:description" content="Solo Rocket Games — независимая студия. Pulse World — 3D-приключение, Argus Core — антивирус, и другие проекты.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://maratktoa-sketch.github.io/Solo-Rocket-Games-SRG/">
-    <meta property="og:image" content="https://maratktoa-sketch.github.io/Solo-Rocket-Games-SRG/logo.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Solo Rocket Games (SRG) — Pulse World, Argus Core и другие проекты">
-    <meta name="twitter:description" content="Solo Rocket Games — независимая студия. Pulse World — 3D-приключение, Argus Core — антивирус, и другие проекты.">
-    <meta name="twitter:image" content="https://maratktoa-sketch.github.io/Solo-Rocket-Games-SRG/logo.png">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
-    <title>Solo Rocket Games (SRG) — Pulse World, Argus Core и другие проекты</title>
+    <meta name="description" content="Solo Rocket Games — независимая студия. Pulse World, Argus Core, TechBeats и другие проекты.">
     <style>
         * {
             margin: 0;
@@ -216,6 +203,12 @@
             color: #dd99ff;
         }
         .btn-horror:hover { background: #3a2a3a; }
+        .btn-support {
+            background: #1a2a2a;
+            border: 2px solid #ffaa00;
+            color: #ffdd88;
+        }
+        .btn-support:hover { background: #2a3a2a; }
         .btn-steam {
             background: #1b2838;
             border: 2px solid #66b3ff;
@@ -353,10 +346,12 @@
         <div class="game-tab" data-game="argus">🛡️ Argus Core</div>
         <div class="game-tab" data-game="horror">🏫 Horror at the School</div>
         <div class="game-tab" data-game="zombie">🧟 Зомби Космос</div>
-        <div class="game-tab" data-game="secret">🔮 Секретный проект</div>
+        <div class="game-tab" data-game="techbeats">⚙️ TechBeats</div>
     </div>
 
+    <!-- ============================================================ -->
     <!-- PULSE WORLD -->
+    <!-- ============================================================ -->
     <div id="game-pulse" class="game-content">
         <div class="game-title">🌍 <span>Pulse World</span> 🤖</div>
         <div class="game-description">
@@ -378,7 +373,9 @@
         </div>
     </div>
 
+    <!-- ============================================================ -->
     <!-- ARGUS CORE -->
+    <!-- ============================================================ -->
     <div id="game-argus" class="game-content hidden">
         <div class="game-title">🛡️ <span>Argus Core</span> 💻</div>
         <div class="game-description argus-specs">
@@ -412,7 +409,9 @@
         </div>
     </div>
 
+    <!-- ============================================================ -->
     <!-- HORROR AT THE SCHOOL -->
+    <!-- ============================================================ -->
     <div id="game-horror" class="game-content hidden">
         <div class="game-title">🏫 <span>Horror at the School</span> 👻</div>
         <div class="game-description">
@@ -442,7 +441,9 @@
         </div>
     </div>
 
+    <!-- ============================================================ -->
     <!-- ЗОМБИ КОСМОС (TrioGames) -->
+    <!-- ============================================================ -->
     <div id="game-zombie" class="game-content hidden">
         <div class="game-title">🧟 <span>Зомби Космос</span> 🌍</div>
         <div class="game-description" style="border-left-color: #ff4444;">
@@ -463,26 +464,26 @@
         </div>
     </div>
 
-    <!-- СЕКРЕТНЫЙ ПРОЕКТ -->
-    <div id="game-secret" class="game-content hidden">
-        <div class="game-title">🔮 <span>Секретный проект</span> 🕵️</div>
-        <div class="secret-text">
-            ⚡ КОДОВОЕ НАЗВАНИЕ: "NOVA" ⚡<br>
-            <span style="font-size: 1rem; color: #667788;">
-                Информация засекречена.<br>
-                Следите за обновлениями.
-            </span>
-        </div>
-        <div class="game-description" style="border-left-color: #ff44aa; text-align: center;">
-            <strong>🚧 В РАЗРАБОТКЕ</strong><br>
-            Мы не можем рассказать детали,<br>
-            но это будет нечто <strong>совершенно новое</strong>.<br>
-            Следите за анонсами в 2028 году.
+    <!-- ============================================================ -->
+    <!-- TECHBEATS -->
+    <!-- ============================================================ -->
+    <div id="game-techbeats" class="game-content hidden">
+        <div class="game-title">⚙️ <span>TechBeats</span> 🎧</div>
+        <div class="game-description" style="border-left-color: #ffaa00;">
+            <strong>«Техно-Звери» — анимационный сериал о войне между ожившей техникой.</strong>
+            <br><br>
+            Микроволновки, пылесосы, колонки, утюги и планшеты сражаются в обычной квартире. Короткие серии, экшен, неожиданные повороты и чёрный юмор.
         </div>
         <div class="game-meta">
-            <span class="game-meta-item"><strong>🎮 Жанр:</strong> ???</span>
-            <span class="game-meta-item"><strong>📅 Выход:</strong> ???</span>
+            <span class="game-meta-item"><strong>🎬 Жанр:</strong> Анимационный сериал / Экшен / Чёрный юмор</span>
+            <span class="game-meta-item"><strong>📅 Выход:</strong> 2026</span>
             <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo Rocket Games (SRG)</span>
+        </div>
+        <div class="download-buttons">
+            <a href="https://vt.tiktok.com/ZSVS2Pheg/" target="_blank" class="btn btn-support">💰 Поддержать</a>
+        </div>
+        <div style="text-align: center; margin: 10px 0 20px 0; color: #8899aa; font-size: 0.95rem;">
+            💬 Если вам понравился проект, поставьте лайк и поделитесь с друзьями!
         </div>
     </div>
 
@@ -504,7 +505,7 @@
         argus: document.getElementById('game-argus'),
         horror: document.getElementById('game-horror'),
         zombie: document.getElementById('game-zombie'),
-        secret: document.getElementById('game-secret')
+        techbeats: document.getElementById('game-techbeats')
     };
 
     tabs.forEach(tab => {
