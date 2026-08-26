@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -369,7 +368,7 @@
             <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo Rocket Games (SRG)</span>
         </div>
         <div class="download-buttons">
-            <a href="#" class="btn btn-pulse">💾 Скачать Pulse World</a>
+            <a href="#" class="btn btn-pulse">💾 Скачать Pulse World на ПК</a>
         </div>
     </div>
 
@@ -437,7 +436,7 @@
             <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo Rocket Games (SRG)</span>
         </div>
         <div class="download-buttons">
-            <a href="#" class="btn btn-horror">⬇️ Скачать Horror at the School</a>
+            <a href="#" class="btn btn-horror">⬇️ Скачать Horror at the School на ПК</a>
         </div>
     </div>
 
@@ -476,7 +475,7 @@
         </div>
         <div class="game-meta">
             <span class="game-meta-item"><strong>🎬 Жанр:</strong> Анимационный сериал / Экшен / Чёрный юмор</span>
-            <span class="game-meta-item"><strong>📅 Выход:</strong> 2026</span>
+            <span class="game-meta-item"><strong>📅 Выход:</strong> 2030</span>
             <span class="game-meta-item"><strong>🎨 Студия:</strong> Solo Rocket Games (SRG)</span>
         </div>
         <div class="download-buttons">
